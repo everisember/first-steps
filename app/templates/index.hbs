@@ -1,10 +1,13 @@
-<div>
-  {{#each model as |tenista|}}
-    <table>
-      <tr>
-        <td>{{tenista.nombre}}</td>
-        <td><button type='button'>Detalle</button></td>
+<div class="title">
+  ATP Ember Everis
+</div>
+<div class="list">
+  <table>
+    {{#each model as |tenista|}}
+      <tr class="row">
+        <td class="cell">{{tenista.nombre}}</td>
+        <td class="cell"><img src="assets/images/tennis.png" height="40" width="40"></td>
       </tr>
-    </table>
-  {{/each}}
+    {{/each}}
+  </table>
 </div>

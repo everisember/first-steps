@@ -1,0 +1,26 @@
+html {
+  background-color: #F8AB5E;
+}
+
+.title {
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+table {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 20px;
+  background-color: #389466
+}
+
+.list {
+  font-size: 24px;
+  padding: 20px;
+  font-family: arial
+}
