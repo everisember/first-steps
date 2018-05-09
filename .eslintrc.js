@@ -9,12 +9,14 @@ module.exports = {
   ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
   ],
   env: {
     browser: true
   },
   rules: {
+    'no-console': 0,
+    'ember/closure-actions': 0
   },
   overrides: [
     // node files
